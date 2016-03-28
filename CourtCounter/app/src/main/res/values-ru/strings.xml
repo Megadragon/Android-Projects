@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Court Counter</string>
+    <string name="team_a_title">Команда А</string>
+    <string name="team_b_title">Команда Б</string>
+    <string name="team_a_score">0</string>
+    <string name="team_b_score">0</string>
+    <string name="add_three_for_teams">+3 очка</string>
+    <string name="add_two_for_teams">+2 очка</string>
+    <string name="add_one_for_teams">Штрафной бросок</string>
+    <string name="reset_team_scores">Сброс</string>
+</resources>
