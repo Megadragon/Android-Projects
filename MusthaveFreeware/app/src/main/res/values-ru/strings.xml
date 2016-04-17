@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Необходимые программы</string>
+	<string name="about">О программе</string>
+	<string name="es_file_explorer">ES Проводник</string>
+	<string name="copyright">Copyright © Сергей Глобов a.k.a. Megadragon, 2016\nЭксклюзивно для StudyJam 2016</string>
+	<string name="download">Скачать из Google Play</string>
+	<string name="wps_office">WPS Офис</string>
+	<string name="aida64_battery">AIDA64 Батарея</string>
+	<string name="aida64_cpu">AIDA64 ЦП</string>
+	<string name="aida64_devices">AIDA64 Устройства</string>
+	<string name="aida64_display">AIDA64 Отображение</string>
+	<string name="aida64_system">AIDA64 Система</string>
+	<string name="aida64_thermal">AIDA64 Температура</string>
+	<string name="ccleaner_analyze">CCleaner Анализ</string>
+	<string name="ccleaner_app_manager">CCleaner Менеджер приложений</string>
+	<string name="ccleaner_main">CCleaner Главная</string>
+	<string name="ccleaner_menu">CCleaner Меню</string>
+	<string name="ccleaner_system_info">CCleaner Системная информация</string>
+	<string name="aida64_summary">AIDA64 (бывшее название Everest) — утилита для просмотра разного рода системной информации, начиная от характеристик и температуры аппаратного обеспечения устройства и заканчивая списком установленных приложений и наборов библиотек. Разработчиком является венгерская компания FinalWire. Является портированной версией одноимённого приложения под ОС Windows. Имеет более 1 млн. скачиваний.</string>
+	<string name="ccleaner_summary">CCleaner (бывшее название Crap Cleaner) — утилита для очистки временных и прочих ненужных файлов от британской компании Piriform. С момента портирования с ОС Windows и Mac OS X в 2014 году CCleaner сумел набрать более 10 млн. скачиваний.</string>
+	<string name="es_file_explorer_cloud">ES Проводник Облачное хранилище</string>
+	<string name="es_file_explorer_custom">ES Проводник Настройка</string>
+	<string name="es_file_explorer_directory_analyze">ES Проводник Анализ папок</string>
+	<string name="es_file_explorer_navigation">ES Проводник Навигация</string>
+	<string name="es_file_explorer_remote_manager">ES Проводник Удалённый доступ</string>
+	<string name="es_file_explorer_user_apps">ES Проводник Пользовательские приложения</string>
+	<string name="ccleaner_description">Очистка кэша приложений, загрузок, истории браузера, пустых папок и даже звонков и SMS;\nПросмотр информации о системе, такой как модель устройства, версия ОС, состояние Wi-Fi, Bluetooth и мобильного Интернета, заряд батареи, а также диаграммы использования процессора, оперативной памяти и SD-карт;\nБез рекламы, интуитивно понятное управление, никаких лишних разрешений.</string>
+	<string name="es_file_explorer_summary">ES Проводник (англ. File Explorer) — популярный файловый менеджер под ОС Android, что подтверждается более 100 млн. скачиваний.</string>
+	<string name="es_file_explorer_description">Поддержка передачи и приёма файлов по локальной сети, FTP, Bluetooth и даже облачным сервисам;\nПоддержка трёх размеров иконок и сортировки по четырём критериям в обоих направлениях: имя, тип, размер и дата изменения;\nПросмотр списка установленных приложений, а также их разрешений;\nАнализ содержимого SD-карт по категориям: изображения, музыка, видео, документы и приложения;\nМенеджер закачек, диспетчер задач, проигрыватель музыки, а также очистка временных файлов.</string>
+	<string name="fbreader_definition">FBReader Определение</string>
+	<string name="fbreader_fullscreen">FBReader Полноэкранний режим</string>
+	<string name="fbreader_library">FBReader Библиотека</string>
+	<string name="fbreader_menu">FBReader Меню</string>
+	<string name="fbreader_multiselection">FBReader Множественное выделение</string>
+	<string name="fbreader_reading">FBReader Чтение</string>
+	<string name="fbreader_sync">FBReader Синхронизация</string>
+	<string name="fbreader_summary">FBReader — программа для чтения книг, разработанная одноимённой организацией из Кембриджа, Великобритания. Поддерживает такие форматы книг, как FB2 (включая заархивированный вариант FB2.zip), ePub, Kindle, RTF, HTML, а также обычный текст. Кроме того, благодаря плагинам от разработчика данной программы, появляется возможность читать книги и документы в форматах PDF и DJVU, а также комиксы в формате CBR (включая заархивированный вариант CBZ). Имеет более 10 млн. скачиваний.</string>
+	<string name="wps_office_edit_excel">WPS Офис Правка Excel</string>
+	<string name="wps_office_edit_powerpoint">WPS Офис Правка Powerpoint</string>
+	<string name="wps_office_edit_word">WPS Офис Правка Word</string>
+	<string name="wps_office_new">WPS Офис Новый</string>
+	<string name="wps_office_open">WPS Офис Открыть</string>
+	<string name="wps_office_summary">WPS Office (бывшее название Kingsoft Office) — офисный пакет для ОС Android, разработанный китайской компанией Kingsoft. Позволяет полноценно работать с файлами Microsoft Word — DOC, Excel — XLS, PowerPoint — PPT, как и с их новыми версиями, а также с PDF и текстовыми файлами. Кроме того, поддерживает такие облачные сервисы, как Dropbox, Google Drive, Яндекс.Диск, Evernote, OneDrive и другие. Имеет более 50 млн. скачиваний.</string>
+</resources>

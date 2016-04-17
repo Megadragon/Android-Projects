@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="io.github.megadragon.musthavefreeware"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<application
+		android:allowBackup="true"
+		android:fullBackupContent="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name=".MainActivity"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<action android:name="android.intent.action.VIEW" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.BROWSABLE" />
+
+				<data
+					android:host="megadragon.github.io"
+					android:pathPrefix="/musthavefreeware"
+					android:scheme="http" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".AIDA64Activity">
+		</activity>
+		<activity android:name=".CleanerActivity">
+		</activity>
+		<activity android:name=".ESFileExplorerActivity">
+		</activity>
+		<activity android:name=".FBReaderActivity">
+		</activity>
+		<activity android:name=".WPSOfficeActivity">
+		</activity>
+	</application>
+
+</manifest>

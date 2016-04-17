@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="io.github.megadragon.musthavefreeware.WPSOfficeActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="16dp"
+			android:text="@string/wps_office"
+			android:textSize="30sp" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/wps_office_summary" />
+
+		<HorizontalScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginTop="8dp">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:orientation="horizontal">
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/wps_office_new"
+					android:src="@drawable/wps_office_new" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/wps_office_open"
+					android:src="@drawable/wps_office_open" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/wps_office_edit_word"
+					android:src="@drawable/wps_office_edit_word" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/wps_office_edit_excel"
+					android:src="@drawable/wps_office_edit_excel" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/wps_office_edit_powerpoint"
+					android:src="@drawable/wps_office_edit_powerpoint" />
+			</LinearLayout>
+		</HorizontalScrollView>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/wps_office_description" />
+
+		<Button
+			android:id="@+id/wps_office_download"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:background="@android:color/holo_green_light"
+			android:text="@string/download" />
+	</LinearLayout>
+</ScrollView>

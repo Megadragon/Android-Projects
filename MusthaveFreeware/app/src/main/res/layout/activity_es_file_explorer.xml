@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="io.github.megadragon.musthavefreeware.ESFileExplorerActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="16dp"
+			android:text="@string/es_file_explorer"
+			android:textSize="30sp" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/es_file_explorer_summary" />
+
+		<HorizontalScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginTop="8dp">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:orientation="horizontal">
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/es_file_explorer_navigation"
+					android:src="@drawable/es_file_explorer_navigation" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/es_file_explorer_directory_analyze"
+					android:src="@drawable/es_file_explorer_directory_analyze" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/es_file_explorer_user_apps"
+					android:src="@drawable/es_file_explorer_user_apps" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/es_file_explorer_cloud"
+					android:src="@drawable/es_file_explorer_cloud" />
+
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/es_file_explorer_remote_manager"
+					android:src="@drawable/es_file_explorer_remote_manager" />
+				<ImageView
+					style="@style/Screenshot"
+					android:contentDescription="@string/es_file_explorer_custom"
+					android:src="@drawable/es_file_explorer_custom" />
+			</LinearLayout>
+		</HorizontalScrollView>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/es_file_explorer_description" />
+
+		<Button
+			android:id="@+id/es_file_explorer_download"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:background="@android:color/holo_green_light"
+			android:text="@string/download" />
+	</LinearLayout>
+</ScrollView>

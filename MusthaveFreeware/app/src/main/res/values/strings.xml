@@ -1,0 +1,57 @@
+<resources>
+	<string name="app_name">Musthave Freeware</string>
+	<string name="aida64" translatable="false">AIDA64</string>
+	<string name="ccleaner" translatable="false">CCleaner</string>
+	<string name="es_file_explorer">ES File Explorer</string>
+	<string name="fbreader" translatable="false">FBReader</string>
+	<string name="wps_office">WPS Office</string>
+	<string name="about">About</string>
+	<string name="copyright">Copyright © Sergey Globov a.k.a. Megadragon, 2016\nExclusively for StudyJam 2016</string>
+	<string name="OK" translatable="false">OK</string>
+	<string name="download">Download from Google Play</string>
+	<string name="aida64_package" translatable="false">com.finalwire.aida64</string>
+	<string name="ccleaner_package" translatable="false">com.piriform.ccleaner</string>
+	<string name="es_file_explorer_package" translatable="false">com.estrongs.android.pop</string>
+	<string name="fbreader_package" translatable="false">org.geometerplus.zlibrary.ui.android</string>
+	<string name="wps_office_package" translatable="false">cn.wps.moffice_eng</string>
+	<string name="aida64_summary">AIDA64 (formerly Everest) is an utility for viewing different kind of system information, such as specifications and temperature of hardware, and even list of software and library sets that are installed on the device. The developer of AIDA64 is Hungarian company named FinalWire. This is ported version of the program of the same name for OS Windows. It has more than 1 million downloads.</string>
+	<string name="ccleaner_summary">CCleaner (formerly Crap Cleaner) is an utility for cleaning of temporary and other trash files developed by British company named Piriform. Since porting from OS Windows and Mac OS X in 2014, CCleaner managed to score more than 10 millions downloads.</string>
+	<string name="es_file_explorer_summary">ES File Explorer is a popular file manager for OS Android, as confirmed by more than 100 millions downloads.</string>
+	<string name="fbreader_summary">FBReader is a program for books reading, developed by company of the same name that based in Cambridge, UK. This application supports file formats like FB2 (including compressed variant FB2.zip), ePub, Kindle, RTF, HTML and plain text. Besides, plugins by the developer give the possibility for reading books and documents in PDF and DJVU formats, and even comics in CBR (including compressed variant CBZ) format. It has more than 10 millions downloads.</string>
+	<string name="wps_office_summary">WPS Office (formerly Kingsoft Office) is the office package for OS Android, developed Chinese company named Kingsoft. It allows to fully work with Microsoft Word files in DOC format, Excel files in XLS format, Powerpoint files in PPT format, as well as their new versions, and even PDF and plaint text. Besides, it supports different cloud services such as Dropbox, Google Drive, Yandex.Disc, Evernote, OneDrive etc. It has more than 50 millions installations.</string>
+	<string name="aida64_description"></string>
+	<string name="ccleaner_description">Cleaning of application cache, downloads, browser history, empty folders and even call and SMS history.\nViewing of system information such as OS version, Wi-Fi, Bluetooth and mobile Internet connection state, battery charge and processor, RAM and SD-cards usage charts.\nNo ads, intuitive handling, no redundant permissions.</string>
+	<string name="es_file_explorer_description">Support of sending and receiving files via LAN, FTP, Bluetooth and even cloud services.\nSupport of three different icon sizes and sorting by four criterias such as name, type, size and last modified date.\nViewing list of installed software and their permissions.\nSD-cards analyzer by different categories such as images, music, video, documents and applications.\nDownload manager, task manager, audioplayer and temporary files cleaning.</string>
+	<string name="fbreader_description"></string>
+	<string name="wps_office_description"></string>
+	<string name="aida64_android" translatable="false">AIDA64 Android</string>
+	<string name="aida64_battery">AIDA64 Battery</string>
+	<string name="aida64_cpu">AIDA64 CPU</string>
+	<string name="aida64_devices">AIDA64 Devices</string>
+	<string name="aida64_display">AIDA64 Display</string>
+	<string name="aida64_system">AIDA64 System</string>
+	<string name="aida64_thermal">AIDA64 Thermal</string>
+	<string name="ccleaner_analyze">CCleaner Analyze</string>
+	<string name="ccleaner_app_manager">CCleaner App Manager</string>
+	<string name="ccleaner_main">CCleaner Main</string>
+	<string name="ccleaner_menu">CCleaner Menu</string>
+	<string name="ccleaner_system_info">CCleaner System Info</string>
+	<string name="es_file_explorer_cloud">ES File Explorer Cloud</string>
+	<string name="es_file_explorer_custom">ES File Explorer Custom</string>
+	<string name="es_file_explorer_directory_analyze">ES File Explorer Directory Analyze</string>
+	<string name="es_file_explorer_navigation">ES File Explorer Navigation</string>
+	<string name="es_file_explorer_remote_manager">ES File Explorer Remote Manager</string>
+	<string name="es_file_explorer_user_apps">ES File Explorer User Apps</string>
+	<string name="fbreader_definition">FBReader Definition</string>
+	<string name="fbreader_fullscreen">FBReader Fullscreen</string>
+	<string name="fbreader_library">FBReader Library</string>
+	<string name="fbreader_menu">FBReader Menu</string>
+	<string name="fbreader_multiselection">FBReader Multiselection</string>
+	<string name="fbreader_reading">FBReader Reading</string>
+	<string name="fbreader_sync">FBReader Sync</string>
+	<string name="wps_office_edit_excel">WPS Office Edit Excel</string>
+	<string name="wps_office_edit_powerpoint">WPS Office Edit Powerpoint</string>
+	<string name="wps_office_edit_word">WPS Office Edit Word</string>
+	<string name="wps_office_new">WPS Office New</string>
+	<string name="wps_office_open">WPS Office Open</string>
+</resources>

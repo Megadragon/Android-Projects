@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/darker_gray"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="io.github.megadragon.musthavefreeware.MainActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<Button
+			android:id="@+id/aida64_button"
+			style="@style/ButtonedItem"
+			android:text="@string/aida64" />
+
+		<Button
+			android:id="@+id/ccleaner_button"
+			style="@style/ButtonedItem"
+			android:text="@string/ccleaner" />
+
+		<Button
+			android:id="@+id/es_file_explorer_button"
+			style="@style/ButtonedItem"
+			android:text="@string/es_file_explorer" />
+
+		<Button
+			android:id="@+id/fbreader_button"
+			style="@style/ButtonedItem"
+			android:text="@string/fbreader" />
+
+		<Button
+			android:id="@+id/wps_office_button"
+			style="@style/ButtonedItem"
+			android:text="@string/wps_office" />
+
+		<Space
+			style="@style/ButtonedItem" />
+
+		<Button
+			android:id="@+id/about_button"
+			style="@style/ButtonedItem"
+			android:text="@string/about" />
+	</LinearLayout>
+</ScrollView>
